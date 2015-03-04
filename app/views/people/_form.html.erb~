@@ -39,6 +39,14 @@
     <%= f.label :releasedate %><br>
     <%= f.number_field :releasedate %>
   </div>
+  <div class="field">
+    <%= f.label :platform %><br>
+    <%= f.text_field :platform %>
+  </div>
+  <div class="field">
+    <%= f.label :developer %><br>
+    <%= f.text_field :developer %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

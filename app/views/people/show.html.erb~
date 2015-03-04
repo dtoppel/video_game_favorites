@@ -35,5 +35,15 @@
   <%= @person.releasedate %>
 </p>
 
+<p>
+  <strong>Platform:</strong>
+  <%= @person.platform %>
+</p>
+
+<p>
+  <strong>Developer:</strong>
+  <%= @person.developer %>
+</p>
+
 <%= link_to 'Edit', edit_person_path(@person) %> |
 <%= link_to 'Back', people_path %>
