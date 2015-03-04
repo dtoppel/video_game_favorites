@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Favorite Videos Games and Genres</h1>
+<h1>Top 5 Games and Genres</h1>
 
 <table>
   <thead>

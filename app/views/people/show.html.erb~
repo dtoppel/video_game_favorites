@@ -16,11 +16,6 @@
 </p>
 
 <p>
-  <strong>Background:</strong>
-  <%= @person.background %>
-</p>
-
-<p>
   <strong>Game:</strong>
   <%= @person.game %>
 </p>

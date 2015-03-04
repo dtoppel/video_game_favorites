@@ -29,7 +29,7 @@
   </div>
   <div class="field">
     <%= f.label :game  %><br>
-    <%= f.text_field :game %>
+    <%= f.text_field :game :age  %>
   </div>
   <div class="field">
     <%= f.label :genre %><br>
