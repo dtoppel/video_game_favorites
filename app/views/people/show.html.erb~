@@ -16,6 +16,11 @@
 </p>
 
 <p>
+  <strong>Background:</strong>
+  <%= @person.background %>
+</p>
+
+<p>
   <strong>Game:</strong>
   <%= @person.game %>
 </p>
@@ -23,6 +28,11 @@
 <p>
   <strong>Genre:</strong>
   <%= @person.genre %>
+</p>
+
+<p>
+  <strong>Release Date:</strong>
+  <%= @person.releasedate %>
 </p>
 
 <%= link_to 'Edit', edit_person_path(@person) %> |

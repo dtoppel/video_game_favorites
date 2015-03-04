@@ -30,5 +30,15 @@
   <%= @person.genre %>
 </p>
 
+<p>
+  <strong>Release Date:</strong>
+  <%= @person.releasedate %>
+</p>
+
+<p>
+  <strong>Platform:</strong>
+  <%= @person.platform %>
+</p>
+
 <%= link_to 'Edit', edit_person_path(@person) %> |
 <%= link_to 'Back', people_path %>

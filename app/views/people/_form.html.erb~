@@ -29,11 +29,15 @@
   </div>
   <div class="field">
     <%= f.label :game  %><br>
-    <%= f.text_field :game :age  %>
+    <%= f.text_field :game %>
   </div>
   <div class="field">
     <%= f.label :genre %><br>
     <%= f.text_field :genre %>
+  </div>
+  <div class="field">
+    <%= f.label :releasedate %><br>
+    <%= f.number_field :releasedate %>
   </div>
   <div class="actions">
     <%= f.submit %>
